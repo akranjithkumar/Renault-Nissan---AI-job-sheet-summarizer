@@ -18,6 +18,8 @@ Here is a view of the application running with a sample job sheet processed by t
 
 The project is structured into three main layers to ensure clean separation of responsibilities: the UI, the Service layer, and the external LLM backend.
 
+![](./diagram.png)
+
 
 
 * **View/Controller (`ai_summarizer_app.py`):** Handles the Tkinter GUI, user interactions (button clicks), and controls the application flow by calling the service layer.
