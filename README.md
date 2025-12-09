@@ -10,7 +10,7 @@ This project demonstrates a clear separation of concerns using a **Service-Orien
 
 Here is a view of the application running with a sample job sheet processed by the local Llama 7B model.
 
-![](./screenshot.png)
+![](./Screenshot.png)
 
 ---
 
