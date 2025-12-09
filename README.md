@@ -1,4 +1,4 @@
-# Renault Nissan - AI Job Sheet Summarizer
+#  Renault Nissan - AI Job Sheet Summarizer
 
 A desktop application built using **Python Tkinter** that utilizes a locally hosted Large Language Model (LLM) via **Ollama** (Llama 7B) to quickly summarize long repair job sheets or customer complaints extracted from PDF documents.
 
@@ -6,7 +6,15 @@ This project demonstrates a clear separation of concerns using a **Service-Orien
 
 ---
 
-##  Application Architecture
+## Sample Output
+
+Here is a view of the application running with a sample job sheet processed by the local Llama 7B model.
+
+![](./screenshot.png)
+
+---
+
+## Application Architecture
 
 The project is structured into three main layers to ensure clean separation of responsibilities: the UI, the Service layer, and the external LLM backend.
 
@@ -34,7 +42,7 @@ The project is structured into three main layers to ensure clean separation of r
 
 You must have the following software installed and configured before running the application:
 
-1.  **Python 3.9+**
+1.  **Python 3.9+** (Ensure consistency across installations).
 2.  **Ollama Server:** Download and install the Ollama server for your operating system.
 3.  **Llama 7B Model:** Download the required LLM model via the Ollama command line:
     ```bash
@@ -45,10 +53,11 @@ You must have the following software installed and configured before running the
 
 ### 1. Project Files
 
-Ensure you have the following two Python files in the same project directory:
+Ensure you have the following two Python files **and your image file** in the same project directory:
 
 1.  `ai_summarizer_app.py`
 2.  `llm_service.py`
+3.  **`screenshot.png`** (Your output image file)
 
 ### 2. Install Python Dependencies
 
